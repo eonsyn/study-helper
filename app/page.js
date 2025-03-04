@@ -7,18 +7,19 @@ import { ImPower } from "react-icons/im";
 import { RiRobot2Fill } from "react-icons/ri";
 export default function Home() {
   return (
-    <div className="min-h-screen  bg-white text-softMint w-screen font-serif ">
-      <div className="Herosection h-screen w-screen flex flex-col justify-center items-center  -mt-10 ">
+    <div className="min-h-screen  bg-white text-softMint w-screen  md:pt-16 font-serif text-black  ">
+      <div className="Herosection h-screen w-screen flex flex-col justify-center md:items-center  -mt-10 ">
         {/* AI Icon Section */}
         <div className="iconofAi flex items-center justify-center w-full py-4">
-          <div className="bg-red-300 rounded-3xl flex items-center px-4 py-2 gap-2 text-sm sm:text-lg">
-            <RiRobot2Fill /> AI-Powered Document Analysis
+          <div className="bg-red-300 rounded-3xl flex items-center px-4 py-1 gap-2 text-sm sm:text-lg  ">
+            <RiRobot2Fill /> AI-Powered Document Analysis{" "}
+            <Link href="http://192.168.56.1:3000">click me</Link>
           </div>
         </div>
 
         {/* Heading & Description */}
-        <div className="textcenter w-full flex items-center justify-center text-center">
-          <div className="max-w-[90%] md:max-w-[70%]">
+        <div className="textcenter w-full flex items-center justify-center   md:text-center">
+          <div className=" max-w-[90%] md:max-w-[70%]">
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[3rem] sm:leading-[4rem] md:leading-[5rem] tracking-tight font-extrabold">
               Ask AI Anything – Type or Upload & Get
               <span className="text-red-500"> Answers</span>
