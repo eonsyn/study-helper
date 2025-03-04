@@ -1,7 +1,7 @@
 import "./globals.css";
 import Footer from "@/component/Footer";
 import Navbar from "@/component/Navbar";
-import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 export const metadata = {
   title: "Image to Solution | AI-Powered Document & Image Analysis",
   description:
