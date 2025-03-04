@@ -13,7 +13,7 @@ export default function Home() {
         <div className="iconofAi flex items-center justify-center w-full py-4">
           <div className="bg-red-300 rounded-3xl flex items-center px-4 py-1 gap-2 text-sm sm:text-lg  ">
             <RiRobot2Fill /> AI-Powered Document Analysis{" "}
-            <Link href="http://192.168.56.1:3000">click me</Link>
+             
           </div>
         </div>
 
